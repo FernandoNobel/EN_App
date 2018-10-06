@@ -1,0 +1,297 @@
+/* #fichapersonaje{
+  top:0px;
+  bottom:0px;
+  background-color: white;
+  font-family:espadanegra;
+  width:595px;
+  position:relative;
+  padding:0px;
+  margin:0px auto;
+  text-indent:0px;
+  font-size:11px;
+  border:0px solid black;
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(50, 12px);
+  grid-gap: 4px;
+  grid-column-gap: 5px;
+}
+
+#personales{
+  align-self: end;
+  grid-column: 1 / 14;
+  grid-row: 1 / 9;
+}
+
+#logo{
+  grid-column: 14 / 25;
+  grid-row: 5;
+  align-self: center;
+}
+
+#fisicos{
+  grid-column: 1 / 7;
+  grid-row: 9;
+}
+
+#mentales{
+  grid-column: 1 / 7;
+  grid-row: 13;
+}
+
+#sobrenaturales{
+  grid-column: 1 / 7;
+  grid-row: 17;
+}
+
+#section_img{
+  grid-column: 7 / 14;
+  grid-row: 10 / 20;
+  align-self: center;
+}
+
+#ventajas{
+  grid-column: 14 / 19;
+  grid-row: 9;
+  align-self: baseline;
+}
+
+#desventajas{
+  grid-column: 19 / 25;
+  grid-row: 9;
+  align-self: baseline;
+}
+
+#anhelos{
+  align-self: baseline;
+  grid-column: 14 /25 ;
+  grid-row: 14;
+}
+
+#EAM {
+  align-self: baseline;
+  grid-column: 14 / 25;
+  grid-row: 19;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 6px;
+}
+
+#icono_vida{
+  width:100%;
+  grid-column: 1 / 7;
+  grid-row: 22 / 28;
+  align-self: normal;
+  position: relative;
+}
+
+#armas{
+  width:100%;
+  grid-column: 8 / 25;
+  grid-row: 22 / 23;
+  position: relative;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#personales .titulo{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+#box{
+  display:grid;
+  grid-template-areas: 
+  "a a a a a a"
+  "b b c c d d"
+  "e e f f g g"
+  "h h i i j j"
+  "k k k l l l"
+  "m m m n n n";
+  grid-column-gap: 3px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding:4px;
+}
+
+#box div{
+  border: 0px;
+  display:table;
+}
+
+#personales label{
+  display:table-cell; 
+  width: 1px;
+}
+
+#personales input{
+  background-color:transparent;
+  border:0px;
+  border-bottom:1px solid black;
+  text-align:center;
+  display:table-cell; 
+  width:100%;
+  height:11px;
+}
+
+#personales #nombre{
+  grid-area: a;
+}
+#personales #origen{
+  grid-area: b;
+}
+#personales #sexo{
+  grid-area: c;
+}
+#personales #edad{
+  grid-area: d;
+}
+#personales #piel{
+  grid-area: e;
+}
+#personales #pelo{
+  grid-area: f;
+}
+#personales #ojos{
+  grid-area: g;
+}
+#personales #peso{
+  grid-area: h;
+}
+#personales #altura{
+  grid-area: i;
+}
+#personales #nacion{
+  grid-area: j;
+}
+#personales #organizacion{
+  grid-area: k;
+}
+#personales #posicion{
+  grid-area: l;
+}
+#personales #religion{
+  grid-area: m;
+}
+#personales #deidad{
+  grid-area: n;
+}
+
+#logo img{
+  width:100%;
+}
+
+.tabla {
+  width:100%;
+  border-top:1px solid black;
+  border-left:1px solid black;
+}
+
+.tabla .titulo{
+  display: grid;
+  text-align:center;
+  border-right:1px solid black;
+  background-color: lightgrey;
+}
+
+.tabla .titulo_full{
+  display: grid;
+  text-align:center;
+  background-color: lightgrey;
+  grid-column: 1 / -1;
+}
+
+.tabla div{
+  width:100%;
+  display:table;
+  border-bottom:1px solid black;
+  border-right:1px solid black;
+  box-sizing: border-box;
+}
+
+.tabla label{
+  padding: 0px 0px 0px 5px;
+}
+.tabla input{
+  background-color:transparent;
+  border:0px;
+  text-align:center;
+  width:100%;
+  height:8px;
+  -moz-appearance:textfield;
+}
+
+.anhelos{
+  display: grid;
+  grid-template-columns: 80% 20%; 
+}
+
+.atributo{
+  display: grid;
+  grid-template-columns: 80% 20%; 
+}
+
+#section_img img{
+  width:100%;
+  border:1px solid black; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+#icono_vida img{
+  width:100%; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+#icono_vida input{
+  background-color:transparent;
+  border:0px;
+  text-align:center;
+  width:24px;
+  height:11px; 
+  -moz-appearance:textfield; 
+}
+
+#icono_vida #vida {
+  position: absolute;
+  top: 35%;
+  left: 4%;
+}
+
+#icono_vida #muerte {
+  position: absolute;
+  top: 62.5%;
+  left: 4%;
+}
+
+#icono_vida #daños_vida {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  height:22px;
+}
+
+#icono_vida #daños_est {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  height:33px;
+}
+
+#icono_vida #estructura {
+  position: absolute;
+  top: 30%;
+  left: 77.5%;
+  height:33px;
+}
+#armas .tabla{
+  display: grid;
+  grid-template-columns:50% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25% 6.25%;
+} */

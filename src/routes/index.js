@@ -44,4 +44,9 @@ router.post('/edit/:id', async (req, res) => {
   res.redirect('/');
 });
 
+router.get('/en_sheet', async (req, res) => {
+  const tasks = await Task.find();
+  res.render('en_sheet');
+});
+
 module.exports = router;
