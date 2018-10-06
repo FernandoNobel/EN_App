@@ -1,20 +1,92 @@
-/* #fichapersonaje{
-  top:0px;
-  bottom:0px;
-  background-color: white;
-  font-family:espadanegra;
-  width:595px;
-  position:relative;
-  padding:0px;
+.en_sheet{
+  width: 600px;
   margin:0px auto;
-  text-indent:0px;
-  font-size:11px;
-  border:0px solid black;
-  display: grid;
-  grid-template-columns: repeat(24, 1fr);
-  grid-template-rows: repeat(50, 12px);
-  grid-gap: 4px;
-  grid-column-gap: 5px;
+  background: #ccc;
+  font-size:13px;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.en_sheet > div{
+  background: #eee;
+}
+
+.en_sheet > div:nth-child(odd){
+  background: #ddd;
+}
+
+.md-1{
+  grid-column: span 1; 
+}
+
+.md-1{
+  grid-column: span 1; 
+}
+
+.md-2{
+  grid-column: span 2; 
+}
+
+.md-3{
+  grid-column: span 3; 
+}
+
+.md-4{
+  grid-column: span 4; 
+}
+
+.md-5{
+  grid-column: span 5; 
+}
+
+.md-6{
+  grid-column: span 6; 
+}
+
+.personales{
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 0em;
+}
+
+.personales > div {
+  display:table;
+}
+
+.personales > div > label{
+  display:table-cell; 
+  width: 1px;
+}
+
+.personales > div  > input{
+  background-color:transparent;
+  border:0px;
+  border-bottom:1px solid black;
+  text-align:center;
+  display:table-cell; 
+  width:100%;
+  height:11px;
+}
+
+/* #fichapersonaje{
+top:0px;
+bottom:0px;
+background-color: white;
+font-family:espadanegra;
+width:595px;
+position:relative;
+padding:0px;
+margin:0px auto;
+text-indent:0px;
+font-size:11px;
+border:0px solid black;
+display: grid;
+grid-template-columns: repeat(24, 1fr);
+grid-template-rows: repeat(50, 12px);
+grid-gap: 4px;
+grid-column-gap: 5px;
 }
 
 #personales{
