@@ -9,11 +9,7 @@
 }
 
 .en_sheet > div{
-  background: #eee;
-}
-
-.en_sheet > div:nth-child(odd){
-  background: #ddd;
+  background: white;
 }
 
 .md-1{
@@ -44,11 +40,26 @@
   grid-column: span 6; 
 }
 
-.personales{
+.pad-5px{
+  padding:5px;
+}
+
+.title{
+  text-align:center;
+  background: #ddd;
   width:100%;
+  border:1px solid black;
+  border-bottom:0px;
+}
+
+.body{
+  width:100%;
+  border:1px solid black;
+}
+
+.personales{
   display:grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 0em;
 }
 
 .personales > div {
