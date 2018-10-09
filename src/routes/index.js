@@ -49,4 +49,9 @@ router.get('/en_sheet', async (req, res) => {
   res.render('en_sheet');
 });
 
+router.get('/masonry', async (req, res) => {
+  const tasks = await Task.find();
+  res.render('masonry');
+});
+
 module.exports = router;

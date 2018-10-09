@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1px;
+}
+
+.content {
+  border: 1px solid black;
+}
