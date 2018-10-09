@@ -54,10 +54,6 @@
   grid-column: span 1; 
 }
 
-.sc-1{
-  grid-column: span 1; 
-}
-
 .sc-2{
   grid-column: span 2; 
 }
@@ -102,7 +98,17 @@
   border-top:1px solid black;
 }
 
-.body > input{
+.body > div{
+  width: 100%;
+  border-right:1px solid black;
+  border-bottom:1px solid black;
+}
+
+.body > div > label{
+  padding:0 0 0 5px;
+}
+
+.body > div > input{
   background-color:transparent;
   border:0px;
   text-align:center;
