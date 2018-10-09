@@ -5,7 +5,7 @@
 .grid {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: 1px;
 }
 
@@ -14,7 +14,7 @@
 
 
 .en_sheet{
-  width: 600px;
+  width: 650px;
   margin:0px auto;
   background: #ccc;
   font-size:13px;
@@ -25,36 +25,65 @@
   background: white;
 }
 
-.md-1{
+.g-2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.g-3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.g-4{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.g-5{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.g-6{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.sc-1{
   grid-column: span 1; 
 }
 
-.md-1{
+.sc-1{
   grid-column: span 1; 
 }
 
-.md-2{
+.sc-2{
   grid-column: span 2; 
 }
 
-.md-3{
+.sc-3{
   grid-column: span 3; 
 }
 
-.md-4{
+.sc-4{
   grid-column: span 4; 
 }
 
-.md-5{
+.sc-5{
   grid-column: span 5; 
 }
 
-.md-6{
+.sc-6{
   grid-column: span 6; 
 }
 
 .pad-5px{
   padding:5px;
+}
+
+.pad-r{
+  padding:0 0 0 5px;
 }
 
 .title{
@@ -69,7 +98,16 @@
 .body{
   box-sizing: border-box;
   width:100%;
-  border:1px solid black;
+  border-left:1px solid black;
+  border-top:1px solid black;
+}
+
+.body > input{
+  background-color:transparent;
+  border:0px;
+  text-align:center;
+  width:100%;
+  height:12px;
 }
 
 .personales{
