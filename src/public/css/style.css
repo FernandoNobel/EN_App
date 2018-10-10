@@ -5,13 +5,12 @@
 .grid {
   display: grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-auto-rows: 1px;
 }
 
 .content {
 }
-
 
 .en_sheet{
   width: 650px;
@@ -19,7 +18,6 @@
   background: #ccc;
   font-size:13px;
 }
-
 
 .en_sheet > div{
   background: white;
@@ -82,15 +80,6 @@
   padding:0 0 0 5px;
 }
 
-.title{
-  box-sizing: border-box;
-  text-align:center;
-  background: #ddd;
-  width:100%;
-  border:1px solid black;
-  border-bottom:0px;
-}
-
 .body{
   box-sizing: border-box;
   width:100%;
@@ -102,6 +91,12 @@
   width: 100%;
   border-right:1px solid black;
   border-bottom:1px solid black;
+}
+
+.title{
+  box-sizing: border-box;
+  text-align:center;
+  background: #ddd;
 }
 
 .body > div > label{
@@ -149,6 +144,15 @@
 .logo > img{
   width: 100%;
   align-self: center;
+}
+
+.char_img > img{
+  width:100%;
+  border:1px solid black; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
 }
 
 /* #fichapersonaje{
