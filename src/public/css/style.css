@@ -48,6 +48,10 @@
   grid-template-columns: repeat(6, 1fr);
 }
 
+.g-gap{
+  grid-gap: 5px;
+}
+
 .sc-1{
   grid-column: span 1; 
 }
@@ -146,13 +150,16 @@
   align-self: center;
 }
 
+.char_img{
+  display:table-cell;
+  vertical-align:middle;
+  height: 190px;
+}
+
 .char_img > img{
   width:100%;
   border:1px solid black; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
+  vertical-align: middle;
 }
 
 /* #fichapersonaje{
