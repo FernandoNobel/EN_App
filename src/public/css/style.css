@@ -13,9 +13,8 @@
 }
 
 .en_sheet{
-  width: 650px;
+  width: 700px;
   margin:0px auto;
-  background: #ccc;
   font-size:13px;
 }
 
@@ -48,6 +47,22 @@
   grid-template-columns: repeat(6, 1fr);
 }
 
+.g-7{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.g-8{
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+}
+
+.g-18{
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+}
+
 .g-gap{
   grid-gap: 5px;
 }
@@ -76,6 +91,22 @@
   grid-column: span 6; 
 }
 
+.sc-7{
+  grid-column: span 7; 
+}
+
+.sc-8{
+  grid-column: span 8; 
+}
+
+.sc-9{
+  grid-column: span 9; 
+}
+
+.sc-10{
+  grid-column: span 10; 
+}
+
 .pad-5px{
   padding:5px;
 }
@@ -101,6 +132,13 @@
   box-sizing: border-box;
   text-align:center;
   background: #ddd;
+}
+
+.blank{
+  box-sizing: border-box;
+  text-align:center;
+  background: white;
+  border: 0px solid black;
 }
 
 .body > div > label{
@@ -162,6 +200,10 @@
   vertical-align: middle;
 }
 
+.vida_est > img{
+  width:100%;
+  vertical-align: middle;
+}
 /* #fichapersonaje{
 top:0px;
 bottom:0px;
