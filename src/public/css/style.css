@@ -13,7 +13,7 @@
 }
 
 .en_sheet{
-  width: 700px;
+  width: 600px;
   margin:0px auto;
   font-size:13px;
 }
@@ -105,6 +105,10 @@
 
 .sc-10{
   grid-column: span 10; 
+}
+
+.sc-11{
+  grid-column: span 11; 
 }
 
 .pad-5px{
